@@ -48,6 +48,10 @@ git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/
 #git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
 #git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
 
+# lucky
+git clone --depth=1 https://github.com/gdy666/lucky package/lucky
+git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
+
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
